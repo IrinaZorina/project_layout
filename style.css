@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{background-color:#1F292F;}
+
+h1{
+	color:#f9f4e6;
+	margin-top:1em;
+	margin-bottom: 1em;	
+	text-align:center;
+}
+
+h2{
+	text-align: center;
+	margin: 10px;
+}
+
+.form {
+	background-color:#FAF8F1;
+	width:800px;
+	padding:20px 20px 50px 20px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.form_info {
+	font-size:28px;
+	color:#5b5643;
+	font-style:italic;
+}
+
+p.lbl, p.message {
+	margin-left:5%;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+p.message {
+	position: absolute;
+	margin-top:-13px;
+	margin-right:5%;
+	margin-left: 50px;
+	padding: 5px;
+	font-size:14px;
+	color: #ff0000;
+	text-align:center;
+	background-color: #FAF8F1;
+}
+
+p.lbl {
+	font-size:18px;
+	text-align:justify;
+	font-style:italic;
+}
+
+p {
+	margin: 1em 0 1em 0;
+	text-align:justify;
+	font-size: 14pt;
+}
+.fio, .passport, .fms, .address{
+	border-bottom: 1px solid black;
+	text-align:center;
+	float:right;
+	color: #ff0000;
+}
+
+.fio {width: 98%;}
+
+.passport {width: 65%;}
+
+.fms{width: 90%;}
+
+.address{width: 65%;}
+
+.info {
+	text-align:center;
+	font-style:italic;
+	font-size:10px;
+}
+
+.date, .fio_2{
+	width:32%;
+	float:left;
+	border-bottom: 1px solid black;
+	text-align:center;
+	margin: 0 5px 0 5px;
+	color: #ff0000;
+}
+
+.sign{
+	width:32%;
+	float:left;
+	border-bottom: 1px solid black;
+	text-align:left;
+	margin: 0 5px 0 5px;
+	color: #000;
+}
+
+span[name=sign]
+{
+	width:32%;
+	float:left;
+	border-bottom: 1px solid black;
+	text-align:center;
+	margin: 0 5px 0 5px;
+	color: #ff0000;
+}
+input[type=submit], input[type=reset] 
+{
+    background: #a52a2a;
+	border: none;
+    color: white;
+    padding: 8px 16px;
+	border-radius: 4px;
+	font-size:24px;
+	width:40%;
+	float:left;
+	margin:5%;
+}	
+
+input[type=text], 
+input[type=password], 
+input[type=email], 
+input[type=date], 
+input[type=number], 
+select
+{
+    padding: 8px 16px;
+	border-radius: 4px;
+	font-size:24px;
+	min-width:90%;
+	margin-left:5%;	
+	background-color:#FAF8F1;
+}
+
+input[type=radio]
+{
+	padding: 2px 2px;
+	min-width:15%;
+	margin-left:5%;	
+}
+
+hr{
+	width:90%;
+	size:10;
+	margin-left:5%;
+	margin-top:5%;
+}
